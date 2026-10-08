@@ -1,4 +1,4 @@
-2270 Mid-Term Cheat sheet.
+## 2270 Mid-Term Cheat sheet.
 
 **Convert to PDF (LaTeX):**
 
