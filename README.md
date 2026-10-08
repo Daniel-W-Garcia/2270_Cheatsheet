@@ -55,13 +55,13 @@ A **data structure** is a way to store, organize, and perform operations on data
 
 | Structure | Description | Visual |
 |-----------|-------------|--------|
-| **Record** | Stores subitems as `{key: value}` pairs. Simialr to a dictionary in C# or python | ![Record](Week_2/Images/Record.png) |
-| **Array** | Collection of elements. Can be indexed for $$O(1)$$ operations | ![Array](Week_2/Images/Array.png) |
-| **Linked List** | Ordered items in nodes; each node points to the next Usually $$O(n)$$ operations for lookups| ![Linked List](Week_2/Images/LinkedList.png) |
-| **Binary Tree** | Nodes with (up to) two children: left and right. Balanced trees should have a $$O(log_n)$$ for lookups and can be as bad as $$O(n \log_n)$$ if tree is just a single branch | ![Binary Tree](Week_2/Images/BinaryTree.png) |
-| **Hash Table** | Maps (hashes) each item to a location in an array. Fast lookups and only holds unique values. | ![Hash Table](Week_2/Images/HashTable.png) |
-| **Heap** | *Max-heap*: node key $$\geq$$ children; *min-heap*: node key $$\leq$$ children | ![Max-Heap](Week_2/Images/MaxHeap.png) |
-| **Graph** | Vertices (items) connected by edges (connections) | ![Graph](Week_2/Images/Graph.png) |
+| **Record** | Stores subitems as `{key: value}` pairs. Simialr to a dictionary in C# or python | ![Record](Record.png) |
+| **Array** | Collection of elements. Can be indexed for $$O(1)$$ operations | ![Array](Array.png) |
+| **Linked List** | Ordered items in nodes; each node points to the next Usually $$O(n)$$ operations for lookups| ![Linked List](LinkedList.png) |
+| **Binary Tree** | Nodes with (up to) two children: left and right. Balanced trees should have a $$O(log_n)$$ for lookups and can be as bad as $$O(n \log_n)$$ if tree is just a single branch | ![Binary Tree](BinaryTree.png) |
+| **Hash Table** | Maps (hashes) each item to a location in an array. Fast lookups and only holds unique values. | ![Hash Table](HashTable.png) |
+| **Heap** | *Max-heap*: node key $$\geq$$ children; *min-heap*: node key $$\leq$$ children | ![Max-Heap](MaxHeap.png) |
+| **Graph** | Vertices (items) connected by edges (connections) | ![Graph](Graph.png) |
 
 ## Abstract Data Types (ADTs)
 
@@ -260,7 +260,7 @@ add_it_up(6)
   // unwind: 0 -> 1 -> 3 -> 6 -> 10 -> 15 -> 21
 ```
 
-![Recursion call and unwind diagram](Week_4/Recursion_Flowchart.png)
+![Recursion call and unwind diagram](Recursion_Flowchart.png)
 
 *The call descends to the base case, then unwinds back up.*
 
@@ -285,7 +285,7 @@ add_it_up(6)
 - Operations: `init_node`, `insert`/`insert_data`, `remove`, `contains`, `get_node`, `size`,
   `to_array` (sorted, via inorder traversal).
 
-![BST visual](Week_4/BST_Removal.png)
+![BST visual](BST_Removal.png)
 
 ## HW 3: BST
 
