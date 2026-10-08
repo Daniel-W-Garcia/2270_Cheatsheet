@@ -1,9 +1,4 @@
-
-
-# CSPB 2270 — Exam Worksheet
-
-Consolidated study sheet for **Weeks 1–5**: lecture notes plus the key ideas, examples, and
-takeaways from each homework assignment.
+2270 Mid-Term Cheat sheet.
 
 **Convert to PDF (LaTeX):**
 
